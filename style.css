@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    color: azure;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    height: 40vh;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem auto;
+    gap: 2rem;
+}
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 2em;
+}
+input:nth-child(2){
+    background: transparent;
+    border: 2px solid rgb(158, 22, 212);
+    color: white;
+    padding: 0.5em;
+    border-radius: 14px;
+}
+input:nth-child(3) {
+    background: teal;
+    width: 11rem;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5em;
+    border-radius: 14px;
+    font-family:monospace;
+    font-weight: 600;
+}
+
+input:nth-child(3):hover{
+    background: white;
+    color: teal;
+}
+.resultParas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+}
+.lastResult{
+    border-radius: 14px;
+    text-align: center;
+    padding: 0.3rem;
+}
+button {
+    background: red;
+    width: 11rem;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5em;
+    border-radius: 14px;
+    font-family:monospace;
+    font-weight: 600;
+    
+}
